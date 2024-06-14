@@ -94,6 +94,17 @@
     filter: grayscale(1) saturate(.9);
 }
 
+.ex-8-img {
+    width: 500px;
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    width: 500px;
+    border-radius: 10%;
+    filter: grayscale(1) saturate(.9);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
