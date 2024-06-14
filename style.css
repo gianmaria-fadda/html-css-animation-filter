@@ -124,7 +124,15 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: rotazione 1s linear infinite;
 }
+
+@keyframes rotazione {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
